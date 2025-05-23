@@ -107,10 +107,14 @@ python main.py --file prod1info.md --keys Name Price Overview
 Given `prod1info.md`:
 
 ```md
-# Product Details
-**Name:** UltraWidget 3000
-**Price:** $149.99
-**Overview:** Wireless charging, waterproof, 24h battery
+Product Details:
+Beige Tshirt for men
+Graphic printed
+Regular length
+Round neck
+Short, drop-shoulder sleeves
+Knitted cotton fabric 
+.......
 ```
 
 ```bash
@@ -122,6 +126,17 @@ box: 1 graphic printed oversized t-shirt
 style: Graphic Print
 ```
 
+```bash
+python .\main.py -k 'product details'
+```
+```
+Beige Tshirt for men
+Graphic printed
+Regular length
+Round neck
+Short, drop-shoulder sleeves
+Knitted cotton fabric
+```
 ---
 
 ## Configuration
