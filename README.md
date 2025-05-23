@@ -18,7 +18,7 @@ A simple CLI tool that uses Google Gemini (via the `google-genai` SDK) to parse 
 
 * **Python 3.8+** installed.
 * A Google Cloud project with access to Gemini API and a valid API key.
-* [uv](https://github.com/universa-io/uv) (Python package manager) installed globally.
+* [uv](https://docs.astral.sh/uv/) (Python package manager) installed globally.
 
 ---
 
@@ -31,7 +31,7 @@ You can set up the project either with **uv** or with **pip**. Both workflows cr
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-org/gemini-extractor.git
+   git clone https://github.com/6DEADSHOT9/Gemini-extractor.git
    cd gemini-extractor
    ```
 2. Initialize `uv` project (:
